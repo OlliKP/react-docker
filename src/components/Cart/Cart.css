@@ -1,0 +1,28 @@
+.bestilContainer {
+    background-color: #c6e1e5;
+    border: none;
+    padding: 2rem 1rem;
+    width: 94vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  
+  .bestilBtn {
+    margin-bottom: 1rem !important;
+  }
+  
+  @media (min-width: 900px) {
+    .bestilContainer {
+      background-color: #c6e1e5;
+      border: none;
+      padding: 2rem 5rem;
+      width: 100%;
+  
+      margin: 0rem 0.5rem 3rem 0.5rem;
+    }
+  }
+  

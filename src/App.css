@@ -1,43 +1,24 @@
-.App {
-  text-align: center;
-}
-
-img {
-  width: 250px;
-  height: auto;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@font-face {
+    font-family: Cronus;
+    src: url('./assets/CRONUS\ ROUND.OTF');
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  @font-face {
+    font-family: Readex;
+    src: url('./assets/READEXPRO-VARIABLEFONT_HEXP\,WGHT.TTF');
   }
-  to {
-    transform: rotate(360deg);
+  
+  @font-face {
+    font-family: Raleway;
+    src: url('./assets/RALEWAY-REGULAR.TTF');
   }
+  
+  @font-face {
+    font-family: RalewayBold;
+    src: url('./assets/RALEWAY-SEMIBOLD.TTF');
+  }  
+
+body {
+    background-color: #fbf7f5;
+    margin: 0;
 }

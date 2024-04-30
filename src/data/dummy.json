@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "name": "Mars Bar",
+    "description": "En klassisk chokoladebar fyldt med nougat og karamel, toppet med mælkechokolade.",
+    "price": 5,
+    "category": "Chokolade",
+    "type": "Chokoladebar",
+    "brand": "Mars"
+  },
+  {
+    "id": 2,
+    "name": "Skittles",
+    "description": "Farverige frugtsmagende slik med en sprød skal.",
+    "price": 10,
+    "category": "Vingummi",
+    "type": "Slik",
+    "brand": "Wrigley's"
+  },
+  {
+    "id": 3,
+    "name": "KitKat",
+    "description": "Knasende vaflelag dækket af mælkechokolade.",
+    "price": 8,
+    "category": "Chokolade",
+    "type": "Chokoladebar",
+    "brand": "Nestlé"
+  },
+  {
+    "id": 4,
+    "name": "Haribo Guld-Bjørne",
+    "description": "Små, bløde bjørneformede vingummier med frugtsmag.",
+    "price": 12,
+    "category": "Vingummi",
+    "type": "Vingummi",
+    "brand": "Haribo"
+  },
+  {
+    "id": 5,
+    "name": "M&M's",
+    "description": "Chokoladeovertrukne peanuts eller chokoladekugler i farverige skaller.",
+    "price": 15,
+    "category": "Chokolade",
+    "type": "Chokolade",
+    "brand": "Mars"
+  },
+  {
+    "id": 6,
+    "name": "Twix",
+    "description": "En kombination af sprød kiks, karamel og mælkechokolade.",
+    "price": 7,
+    "category": "Chokolade",
+    "type": "Chokoladebar",
+    "brand": "Mars"
+  },
+  {
+    "id": 7,
+    "name": "Jelly Belly Jelly Beans",
+    "description": "Små, aromatiske bønner i forskellige smagsvarianter.",
+    "price": 20,
+    "category": "Vingummi",
+    "type": "Slik",
+    "brand": "Jelly Belly"
+  },
+  {
+    "id": 8,
+    "name": "Toblerone",
+    "description": "Trekantede chokoladeblokke fyldt med nougat og mandler.",
+    "price": 25,
+    "category": "Chokolade",
+    "type": "Chokolade",
+    "brand": "Toblerone"
+  },
+  {
+    "id": 9,
+    "name": "Snickers",
+    "description": "En kombination af nougat, karamel og peanuts, overtrukket med mælkechokolade.",
+    "price": 6,
+    "category": "Chokolade",
+    "type": "Chokoladebar",
+    "brand": "Mars"
+  },
+  {
+    "id": 10,
+    "name": "Sour Patch Kids",
+    "description": "Sure og søde vingummier i form af små figurer.",
+    "price": 10,
+    "category": "Vingummi",
+    "type": "Slik",
+    "brand": "Mondelez International"
+  },
+  {
+    "id": 11,
+    "name": "Cadbury Dairy Milk",
+    "description": "En klassisk mælkechokoladebar med en blød og cremet tekstur.",
+    "price": 9,
+    "category": "Chokolade",
+    "type": "Chokoladebar",
+    "brand": "Cadbury"
+  },
+  {
+    "id": 12,
+    "name": "Reese's Peanut Butter Cups",
+    "description": "Chokoladekop med en cremet jordnøddesmørindvendig.",
+    "price": 12,
+    "category": "Chokolade",
+    "type": "Chokolade",
+    "brand": "Hershey's"
+  },
+  {
+    "id": 13,
+    "name": "Werther's Original",
+    "description": "Klassiske hårde karameller med en smørsmag.",
+    "price": 8,
+    "category": "Slik",
+    "type": "Slik",
+    "brand": "Storck"
+  },
+  {
+    "id": 14,
+    "name": "Kinder Bueno",
+    "description": "En lækker chokoladebar med en cremet hasselnøddefyldning.",
+    "price": 10,
+    "category": "Chokolade",
+    "type": "Chokoladebar",
+    "brand": "Ferrero"
+  },
+  {
+    "id": 15,
+    "name": "Starburst",
+    "description": "Slik i frugtsmagende firkantede stykker.",
+    "price": 10,
+    "category": "Vingummi",
+    "type": "Slik",
+    "brand": "Wrigley's"
+  },
+  {
+    "id": 16,
+    "name": "Lindt Lindor",
+    "description": "Chokoladekugler med en cremet fyldning.",
+    "price": 30,
+    "category": "Chokolade",
+    "type": "Chokolade",
+    "brand": "Lindt"
+  },
+  {
+    "id": 17,
+    "name": "Maltesers",
+    "description": "Knasende kugler af maltbolcher dækket af mælkechokolade.",
+    "price": 8,
+    "category": "Chokolade",
+    "type": "Chokolade",
+    "brand": "Mars"
+  },
+  {
+    "id": 18,
+    "name": "Skittles Sours",
+    "description": "Sur smagfuld version af de klassiske Skittles.",
+    "price": 12,
+    "category": "Vingummi",
+    "type": "Slik",
+    "brand": "Wrigley's"
+  },
+  {
+    "id": 19,
+    "name": "Ferrero Rocher",
+    "description": "Chokoladekugler fyldt med hasselnød, omgivet af hasselnødcreme og knuste hasselnødder.",
+    "price": 20,
+    "category": "Chokolade",
+    "type": "Chokolade",
+    "brand": "Ferrero"
+  },
+  {
+    "id": 20,
+    "name": "Reese's Pieces",
+    "description": "Knasende chokoladeovertrukne jordnødder i små stykker.",
+    "price": 15,
+    "category": "Chokolade",
+    "type": "Chokolade",
+    "brand": "Hershey's"
+  },
+  {
+    "id": 21,
+    "name": "Sour Patch Watermelon",
+    "description": "Vingummier med vandmelonssmag og en sur overflade.",
+    "price": 12,
+    "category": "Vingummi",
+    "type": "Slik",
+    "brand": "Mondelez International"
+  },
+  {
+    "id": 22,
+    "name": "Snickers Crunchy Peanut Butter",
+    "description": "Snickersbar med en cremet jordnøddesmørfyldning og knasende peanuts.",
+    "price": 7,
+    "category": "Chokolade",
+    "type": "Chokoladebar",
+    "brand": "Mars"
+  },
+  {
+    "id": 23,
+    "name": "Pop Rocks",
+    "description": "Knasende slik, der popper og bruser i munden.",
+    "price": 5,
+    "category": "Slik",
+    "type": "Slik",
+    "brand": "Zeta Espacial"
+  },
+  {
+    "id": 24,
+    "name": "Milka Chokoladeplade",
+    "description": "En mælkechokoladeplade fra det populære mærke Milka.",
+    "price": 12,
+    "category": "Chokolade",
+    "type": "Chokolade",
+    "brand": "Milka"
+  },
+  {
+    "id": 25,
+    "name": "Trolli Brite Crawlers",
+    "description": "Farverige og sure vingummier i form af orme.",
+    "price": 10,
+    "category": "Vingummi",
+    "type": "Slik",
+    "brand": "Trolli"
+  },
+  {
+    "id": 26,
+    "name": "Dove Chocolate",
+    "description": "Silkeblød mælkechokolade fra Dove.",
+    "price": 15,
+    "category": "Chokolade",
+    "type": "Chokolade",
+    "brand": "Mars"
+  },
+  {
+    "id": 27,
+    "name": "Smarties",
+    "description": "Knasende chokoladeovertrukne slik i farverige skaller.",
+    "price": 8,
+    "category": "Chokolade",
+    "type": "Chokolade",
+    "brand": "Nestlé"
+  },
+  {
+    "id": 28,
+    "name": "Warheads Extreme Sour",
+    "description": "Ekstremt sure vingummier med forskellige smagsvarianter.",
+    "price": 13,
+    "category": "Vingummi",
+    "type": "Slik",
+    "brand": "Warheads"
+  },
+  {
+    "id": 29,
+    "name": "Nerds",
+    "description": "Knasende små stykker af slik i forskellige frugtsmag.",
+    "price": 10,
+    "category": "Slik",
+    "type": "Slik",
+    "brand": "Ferrara Candy Company"
+  },
+  {
+    "id": 30,
+    "name": "Hershey's Milk Chocolate",
+    "description": "En klassisk mælkechokoladebar fra Hershey's.",
+    "price": 10,
+    "category": "Chokolade",
+    "type": "Chokoladebar",
+    "brand": "Hershey's"
+  },
+  {
+    "id": 31,
+    "name": "Airheads",
+    "description": "Slik i forskellige frugtsmag og farver.",
+    "price": 8,
+    "category": "Vingummi",
+    "type": "Slik",
+    "brand": "Perfetti Van Melle"
+  },
+  {
+    "id": 32,
+    "name": "Milky Way",
+    "description": "En lækker kombination af nougat og karamel, dækket af mælkechokolade.",
+    "price": 7,
+    "category": "Chokolade",
+    "type": "Chokoladebar",
+    "brand": "Mars"
+  },
+  {
+    "id": 33,
+    "name": "Jolly Rancher",
+    "description": "Hårde slik i frugtsmag, perfekt til langvarig nydelse.",
+    "price": 9,
+    "category": "Slik",
+    "type": "Slik",
+    "brand": "Hershey's"
+  },
+  {
+    "id": 34,
+    "name": "Hershey's Kisses",
+    "description": "Små stykker af mælkechokoladeformet som et kys.",
+    "price": 8,
+    "category": "Chokolade",
+    "type": "Chokolade",
+    "brand": "Hershey's"
+  },
+  {
+    "id": 35,
+    "name": "Sour Punch Straws",
+    "description": "Sure tyggesnore i forskellige frugtsmag.",
+    "price": 12,
+    "category": "Vingummi",
+    "type": "Slik",
+    "brand": "American Licorice Company"
+  },
+  {
+    "id": 36,
+    "name": "Hershey's Cookies 'n' Creme",
+    "description": "Hvide chokoladeknapper med stykker af chokoladekiks.",
+    "price": 11,
+    "category": "Chokolade",
+    "type": "Chokolade",
+    "brand": "Hershey's"
+  },
+  {
+    "id": 37,
+    "name": "Sour Patch Kids Berries",
+    "description": "Sure og søde vingummier i bærsmag.",
+    "price": 10,
+    "category": "Vingummi",
+    "type": "Slik",
+    "brand": "Mondelez International"
+  },
+  {
+    "id": 38,
+    "name": "Milka Oreo Chokoladeplade",
+    "description": "Mælkechokolade med stykker af Oreo-kiks indeni.",
+    "price": 15,
+    "category": "Chokolade",
+    "type": "Chokolade",
+    "brand": "Milka"
+  },
+  {
+    "id": 39,
+    "name": "Reese's Fast Break",
+    "description": "En kombination af peanutbutter, karamel og mælkechokolade.",
+    "price": 9,
+    "category": "Chokolade",
+    "type": "Chokoladebar",
+    "brand": "Hershey's"
+  },
+  {
+    "id": 40,
+    "name": "Mentos",
+    "description": "Frisk pust af slik med forskellige smagsvarianter.",
+    "price": 7,
+    "category": "Vingummi",
+    "type": "Slik",
+    "brand": "Perfetti Van Melle"
+  },
+  {
+    "id": 41,
+    "name": "Reese's Nutrageous",
+    "description": "Sprød kiks og peanuts dækket af peanutbutter og mælkechokolade.",
+    "price": 8,
+    "category": "Chokolade",
+    "type": "Chokoladebar",
+    "brand": "Hershey's"
+  },
+  {
+    "id": 42,
+    "name": "Swedish Fish",
+    "description": "Bløde, røde fiskeformede vingummier med frugtsmag.",
+    "price": 10,
+    "category": "Vingummi",
+    "type": "Slik",
+    "brand": "Mondelez International"
+  },
+  {
+    "id": 43,
+    "name": "Nestlé Crunch",
+    "description": "Knasende rispuder dækket af mælkechokolade.",
+    "price": 8,
+    "category": "Chokolade",
+    "type": "Chokoladebar",
+    "brand": "Nestlé"
+  },
+  {
+    "id": 44,
+    "name": "Hubba Bubba",
+    "description": "Tyggegummi i forskellige frugtsmag.",
+    "price": 5,
+    "category": "Slik",
+    "type": "Slik",
+    "brand": "Wrigley's"
+  },
+  {
+    "id": 45,
+    "name": "Tic Tac",
+    "description": "Frisk pust af mintslik i små stykker.",
+    "price": 6,
+    "category": "Slik",
+    "type": "Slik",
+    "brand": "Ferrero"
+  },
+  {
+    "id": 46,
+    "name": "Reese's White Peanut Butter Cups",
+    "description": "Chokoladekop med en cremet hvid jordnøddesmørindvendig.",
+    "price": 12,
+    "category": "Chokolade",
+    "type": "Chokolade",
+    "brand": "Hershey's"
+  },
+  {
+    "id": 47,
+    "name": "Mamba",
+    "description": "Bløde vingummier med forskellige frugtsmag.",
+    "price": 9,
+    "category": "Vingummi",
+    "type": "Slik",
+    "brand": "Storck"
+  },
+  {
+    "id": 48,
+    "name": "Baby Ruth",
+    "description": "En chokoladebar med karamel, peanuts og nougat.",
+    "price": 8,
+    "category": "Chokolade",
+    "type": "Chokoladebar",
+    "brand": "Ferrara Candy Company"
+  },
+  {
+    "id": 49,
+    "name": "Wonka Bar",
+    "description": "Fantasifuld chokoladebar med forskellige smagsoplevelser.",
+    "price": 10,
+    "category": "Chokolade",
+    "type": "Chokoladebar",
+    "brand": "Nestlé"
+  },
+  {
+    "id": 50,
+    "name": "Hershey's Gold",
+    "description": "Karamel- og peanutfyldt chokolade dækket af cremet hvid chokolade.",
+    "price": 11,
+    "category": "Chokolade",
+    "type": "Chokolade",
+    "brand": "Hershey's"
+  }
+]
