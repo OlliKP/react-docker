@@ -1,33 +1,60 @@
-import React, {Fragment, useEffect, useState} from 'react'
-import axios from 'axios'
-import './App.css';
- 
-// Define a React functional component named App
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+import OAuth from 'oauth-1.0a';
+import CryptoJS from 'crypto-js';
+
 function App() {
-  // Initialize state 'posts' with an empty array. This state will hold the fetched posts.
-  const [posts, setPosts] = useState([])
- 
-  // useEffect hook to fetch posts from the WordPress REST API when the component mounts
-  useEffect(()=>{
-      // Use axios to make a GET request to the WordPress REST API for posts
-      axios.get('http://localhost:8000/wp-json/wp/v2/posts?_embed')
-      .then((res)=>setPosts(res.data)) // On success, update the 'posts' state with the fetched data
-  },[]) // The empty dependency array means this effect runs only once after the initial render
- 
-  // Map each post in the 'posts' state to an <li> element with its content
-  const postsJsx = posts.map((post)=>(
-      // Set the inner HTML of the <li> to the post's content. Note: This can be a security risk (XSS)
-      <li key={post.id} dangerouslySetInnerHTML={{__html:post.content.rendered}}></li>))
-      
-  console.log(postsJsx);
-  // Render the list of posts inside a <ul> element
-  return(
-    <Fragment>
-      <ul>{postsJsx}</ul>
-      
-    </Fragment>
-  )
-  
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    const oauth = OAuth({
+      consumer: {
+        key: 'ck_0949511189625c7c3a26c8acf32bab174aa80fdb',
+        secret: 'cs_6aaa4fb9d76a463af02b1009dda1e6ef5f6a1f78'
+      },
+      signature_method: 'HMAC-SHA1',
+      hash_function(base_string, key) {
+        return CryptoJS.enc.Base64.stringify(CryptoJS.HmacSHA1(base_string, key));
+      }
+    });
+
+    const requestData = {
+      url: 'http://localhost:8000/wp-json/wc/v3/products/',
+      method: 'GET'
+    };
+
+    const authHeader = oauth.toHeader(oauth.authorize(requestData));
+
+    axios.get(requestData.url, {
+      headers: {
+        Authorization: authHeader.Authorization
+      }
+    })
+    .then((res) => setProducts(res.data))
+    .catch((error) => console.error('Error fetching products:', error));
+  }, []);
+
+  const productsJsx = products.map((product) => (
+    <li key={product.id}>
+      <h3>{product.name}</h3>
+      <p>
+        <strong>Description:</strong>{' '}
+        <span dangerouslySetInnerHTML={{ __html: product.description }} />
+      </p>
+      <p><strong>Price:</strong> {product.price}</p>
+      <p><strong>Category:</strong> {product.attributes.find(attr => attr.name === 'category').options[0]}</p>
+      <p><strong>Type:</strong> {product.attributes.find(attr => attr.name === 'type').options[0]}</p>
+      <p><strong>Brand:</strong> {product.attributes.find(attr => attr.name === 'brand').options[0]}</p>
+      <img src={product.images[0].src}></img>
+    </li>
+  ));
+
+  return (
+    <div>
+      <h1>Products</h1>
+      <ul>{productsJsx}</ul>
+    </div>
+  );
 }
- 
+
 export default App;
