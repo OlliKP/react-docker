@@ -9,9 +9,13 @@ import { Card } from 'react-bootstrap';
 const Cart = () => {
   const cart = useContext(CartContext);
 
-  var totalPrice = 0;
+  // Initialize totalPrice as a number
+  let totalPrice = 0;
+
+  // Loop through cartItems and add their prices
   for (let i = 0; i < cart.cartItems.length; i++) {
-    totalPrice += cart.cartItems[i].price;
+    // Convert item price to a number before adding
+    totalPrice += parseFloat(cart.cartItems[i].price);
   }
 
   const [isBought, setIsBought] = useState(false);
